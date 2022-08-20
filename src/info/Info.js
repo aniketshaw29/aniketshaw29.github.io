@@ -106,24 +106,24 @@ export const info = {
       source: "https://github.com/aniketshaw29/studentManagement", // this should be a link to the **repository** of the project, where the code is hosted.
       image: mock1,
     },
-    {
-      title: "Uber Prediction",
-      live: "#",
-      source: "https://github.com/aniketshaw29/UberPrediction",
-      image: mock2,
-    },
-    {
-      title: "Car Prediction",
-      live: "#",
-      source: "https://github.com/aniketshaw29/CarPrediction",
-      image: mock3,
-    },
-    {
-      title: "Admission Prediction",
-      live: "#",
-      source: "https://github.com/aniketshaw29/AdmissionPrediction",
-      image: mock3,
-    },
+    // {
+    //   title: "Uber Prediction",
+    //   live: "#",
+    //   source: "https://github.com/aniketshaw29/UberPrediction",
+    //   image: mock2,
+    // },
+    // {
+    //   title: "Car Prediction",
+    //   live: "#",
+    //   source: "https://github.com/aniketshaw29/CarPrediction",
+    //   image: mock3,
+    // },
+    // {
+    //   title: "Admission Prediction",
+    //   live: "#",
+    //   source: "https://github.com/aniketshaw29/AdmissionPrediction",
+    //   image: mock3,
+    // },
     {
       title: "Customer Management",
       live: "https://customer-management-angular13.herokuapp.com",
