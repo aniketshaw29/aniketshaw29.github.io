@@ -1,0 +1,7 @@
+npm install -g serve
+serve -s build
+
+
+
+
+after build ready, copy paste the things inside build to hosting repo
