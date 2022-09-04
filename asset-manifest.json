@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.156ce8d6.css",
-    "main.js": "/static/js/main.71690aab.js",
-    "static/media/mock1.png": "/static/media/mock1.710e6b5b30fba38fd5a2.png",
-    "static/media/mock2.png": "/static/media/mock2.5cb9fcd5438d940211a9.png",
-    "static/media/mock3.png": "/static/media/mock3.8fdc62ac0c1e8d258e06.png",
-    "static/media/mock5.png": "/static/media/mock5.2430dacca87f6c71e9ba.png",
-    "static/media/self.png": "/static/media/self.c71dd72a45771abfd0a5.png",
-    "static/media/mock4.png": "/static/media/mock4.a3c8f769fb2321ee10d2.png",
-    "static/media/mock6.png": "/static/media/mock6.fed0bc9c223bd2d3c516.png",
-    "index.html": "/index.html",
-    "main.156ce8d6.css.map": "/static/css/main.156ce8d6.css.map",
-    "main.71690aab.js.map": "/static/js/main.71690aab.js.map"
+    "main.css": "/aniketshaw.me/static/css/main.ffea01d3.css",
+    "main.js": "/aniketshaw.me/static/js/main.51781c5a.js",
+    "static/media/mock1.png": "/aniketshaw.me/static/media/mock1.710e6b5b30fba38fd5a2.png",
+    "static/media/mock2.png": "/aniketshaw.me/static/media/mock2.5cb9fcd5438d940211a9.png",
+    "static/media/mock3.png": "/aniketshaw.me/static/media/mock3.8fdc62ac0c1e8d258e06.png",
+    "static/media/mock5.png": "/aniketshaw.me/static/media/mock5.2430dacca87f6c71e9ba.png",
+    "static/media/self.png": "/aniketshaw.me/static/media/self.c71dd72a45771abfd0a5.png",
+    "static/media/mock4.png": "/aniketshaw.me/static/media/mock4.a3c8f769fb2321ee10d2.png",
+    "static/media/mock6.png": "/aniketshaw.me/static/media/mock6.fed0bc9c223bd2d3c516.png",
+    "index.html": "/aniketshaw.me/index.html",
+    "main.ffea01d3.css.map": "/aniketshaw.me/static/css/main.ffea01d3.css.map",
+    "main.51781c5a.js.map": "/aniketshaw.me/static/js/main.51781c5a.js.map"
   },
   "entrypoints": [
-    "static/css/main.156ce8d6.css",
-    "static/js/main.71690aab.js"
+    "static/css/main.ffea01d3.css",
+    "static/js/main.51781c5a.js"
   ]
 }
