@@ -62,6 +62,28 @@
     .nav-links a { color: var(--muted); font-size: 14px; font-weight: 500; transition: color .15s; }
     .nav-links a:hover { color: var(--text); text-decoration: none; }
 
+    /* ── Hamburger ── */
+    .nav-toggle {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 4px;
+      background: none;
+      border: none;
+    }
+    .nav-toggle span {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background: var(--text);
+      border-radius: 2px;
+      transition: transform .2s, opacity .2s;
+    }
+    .nav-toggle.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-toggle.open span:nth-child(2) { opacity: 0; }
+    .nav-toggle.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
     #hero { padding: 100px 0 80px; position: relative; overflow: hidden; }
     .hero-tag {
       display: inline-block;
@@ -152,7 +174,30 @@
     @media (max-width: 640px) {
       #about .about-grid { grid-template-columns: 1fr; }
       .projects-grid { grid-template-columns: 1fr; }
-      .nav-links { gap: 16px; }
+
+      .nav-toggle { display: flex; }
+
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        gap: 0;
+        background: rgba(13, 17, 23, 0.97);
+        border-bottom: 1px solid var(--border);
+        padding: 8px 0;
+      }
+      .nav-links.open { display: flex; }
+      .nav-links li a {
+        display: block;
+        padding: 12px 24px;
+        font-size: 15px;
+      }
+
+      nav { position: relative; }
+      nav .container { position: relative; }
     }
 
     .fade-up { opacity: 0; transform: translateY(20px); transition: opacity .5s ease, transform .5s ease; }
@@ -164,7 +209,10 @@
   <nav>
     <div class="container">
       <a class="nav-logo" href="https://aniketshaw29.github.io/" style="text-decoration:none">aniketshaw29</a>
-      <ul class="nav-links">
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="this.classList.toggle('open');document.getElementById('nav-links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#experience">Experience</a></li>
@@ -483,6 +531,13 @@
       { threshold: 0.1 }
     );
     document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+    document.querySelectorAll('#nav-links a').forEach(a => {
+      a.addEventListener('click', () => {
+        document.getElementById('nav-links').classList.remove('open');
+        document.querySelector('.nav-toggle').classList.remove('open');
+      });
+    });
   </script>
 
 </body>
