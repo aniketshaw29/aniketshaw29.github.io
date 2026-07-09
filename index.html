@@ -57,26 +57,12 @@
       padding-top: 14px;
       padding-bottom: 14px;
     }
-    .nav-logo {
-      font-family: var(--mono);
-      font-size: 14px;
-      color: var(--accent);
-      font-weight: 500;
-    }
+    .nav-logo { font-family: var(--mono); font-size: 14px; color: var(--accent); font-weight: 500; }
     .nav-links { display: flex; gap: 28px; list-style: none; }
-    .nav-links a {
-      color: var(--muted);
-      font-size: 14px;
-      font-weight: 500;
-      transition: color .15s;
-    }
+    .nav-links a { color: var(--muted); font-size: 14px; font-weight: 500; transition: color .15s; }
     .nav-links a:hover { color: var(--text); text-decoration: none; }
 
-    #hero {
-      padding: 100px 0 80px;
-      position: relative;
-      overflow: hidden;
-    }
+    #hero { padding: 100px 0 80px; position: relative; overflow: hidden; }
     .hero-tag {
       display: inline-block;
       font-family: var(--mono);
@@ -88,20 +74,9 @@
       padding: 4px 12px;
       margin-bottom: 20px;
     }
-    #hero h1 {
-      font-size: clamp(2rem, 5vw, 3.2rem);
-      font-weight: 700;
-      line-height: 1.15;
-      letter-spacing: -0.02em;
-      margin-bottom: 16px;
-    }
+    #hero h1 { font-size: clamp(2rem, 5vw, 3.2rem); font-weight: 700; line-height: 1.15; letter-spacing: -0.02em; margin-bottom: 16px; }
     #hero h1 span { color: var(--accent); }
-    .hero-sub {
-      font-size: 1.1rem;
-      color: var(--muted);
-      max-width: 560px;
-      margin-bottom: 36px;
-    }
+    .hero-sub { font-size: 1.1rem; color: var(--muted); max-width: 560px; margin-bottom: 36px; }
     .hero-btns { display: flex; gap: 12px; flex-wrap: wrap; }
     .btn {
       display: inline-flex;
@@ -117,187 +92,62 @@
     }
     .btn:hover { opacity: .85; text-decoration: none; transform: translateY(-1px); }
     .btn-primary { background: var(--accent); color: #0d1117; }
-    .btn-secondary {
-      background: transparent;
-      color: var(--text);
-      border: 1px solid var(--border);
-    }
+    .btn-secondary { background: transparent; color: var(--text); border: 1px solid var(--border); }
     .btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
 
     section { padding: 72px 0; }
-    .section-label {
-      font-family: var(--mono);
-      font-size: 12px;
-      color: var(--accent);
-      text-transform: uppercase;
-      letter-spacing: .1em;
-      margin-bottom: 8px;
-    }
-    .section-title {
-      font-size: 1.8rem;
-      font-weight: 700;
-      letter-spacing: -0.01em;
-      margin-bottom: 40px;
-    }
-    .section-divider {
-      border: none;
-      border-top: 1px solid var(--border);
-    }
+    .section-label { font-family: var(--mono); font-size: 12px; color: var(--accent); text-transform: uppercase; letter-spacing: .1em; margin-bottom: 8px; }
+    .section-title { font-size: 1.8rem; font-weight: 700; letter-spacing: -0.01em; margin-bottom: 40px; }
+    .section-divider { border: none; border-top: 1px solid var(--border); }
 
-    #about .about-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 40px;
-      align-items: start;
-    }
+    #about .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
     .about-text p { color: var(--muted); margin-bottom: 14px; }
     .about-text p:last-child { margin-bottom: 0; }
-    .about-stats {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 16px;
-    }
-    .stat-card {
-      background: var(--bg2);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 20px;
-    }
-    .stat-value {
-      font-size: 1.8rem;
-      font-weight: 700;
-      color: var(--accent);
-      font-family: var(--mono);
-    }
+    .about-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .stat-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; }
+    .stat-value { font-size: 1.8rem; font-weight: 700; color: var(--accent); font-family: var(--mono); }
     .stat-label { font-size: 13px; color: var(--muted); margin-top: 4px; }
 
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 16px;
-    }
-    .skill-group {
-      background: var(--bg2);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 20px;
-    }
-    .skill-group h4 {
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: .08em;
-      color: var(--accent);
-      font-family: var(--mono);
-      margin-bottom: 12px;
-    }
+    .skills-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+    .skill-group { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; }
+    .skill-group h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--accent); font-family: var(--mono); margin-bottom: 12px; }
     .skill-tags { display: flex; flex-wrap: wrap; gap: 6px; }
-    .skill-tag {
-      font-size: 12px;
-      font-family: var(--mono);
-      background: var(--bg3);
-      border: 1px solid var(--border);
-      color: var(--text);
-      border-radius: 4px;
-      padding: 3px 8px;
-    }
+    .skill-tag { font-size: 12px; font-family: var(--mono); background: var(--bg3); border: 1px solid var(--border); color: var(--text); border-radius: 4px; padding: 3px 8px; }
 
     .timeline { position: relative; padding-left: 24px; }
-    .timeline::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 6px;
-      bottom: 0;
-      width: 1px;
-      background: var(--border);
-    }
+    .timeline::before { content: ''; position: absolute; left: 0; top: 6px; bottom: 0; width: 1px; background: var(--border); }
     .timeline-item { position: relative; margin-bottom: 36px; }
-    .timeline-item::before {
-      content: '';
-      position: absolute;
-      left: -28px;
-      top: 6px;
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: var(--accent);
-      border: 2px solid var(--bg);
-    }
+    .timeline-item::before { content: ''; position: absolute; left: -28px; top: 6px; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); border: 2px solid var(--bg); }
     .timeline-header { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 6px; margin-bottom: 4px; }
     .timeline-role { font-weight: 600; font-size: 1rem; }
     .timeline-period { font-family: var(--mono); font-size: 12px; color: var(--muted); }
     .timeline-company { color: var(--accent); font-size: 14px; margin-bottom: 8px; font-weight: 500; }
     .timeline-desc { color: var(--muted); font-size: 14px; }
-    .timeline-desc li { margin-bottom: 4px; padding-left: 4px; }
+    .timeline-desc li { margin-bottom: 10px; padding-left: 4px; }
     .timeline-desc ul { padding-left: 18px; }
 
-    .projects-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-      gap: 20px;
-    }
-    .project-card {
-      background: var(--bg2);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 24px;
-      display: flex;
-      flex-direction: column;
-      transition: border-color .15s, transform .15s;
-    }
+    .projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 20px; }
+    .project-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; display: flex; flex-direction: column; transition: border-color .15s, transform .15s; }
     .project-card:hover { border-color: var(--accent); transform: translateY(-2px); }
     .project-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
     .project-icon { font-size: 1.4rem; }
     .project-links { display: flex; gap: 10px; }
-    .project-link {
-      color: var(--muted);
-      font-size: 12px;
-      display: flex;
-      align-items: center;
-      gap: 4px;
-      transition: color .15s;
-    }
+    .project-link { color: var(--muted); font-size: 12px; display: flex; align-items: center; gap: 4px; transition: color .15s; }
     .project-link:hover { color: var(--accent); text-decoration: none; }
     .project-link svg { flex-shrink: 0; }
     .project-name { font-size: 1rem; font-weight: 600; margin-bottom: 8px; }
     .project-desc { color: var(--muted); font-size: 14px; flex: 1; margin-bottom: 16px; }
     .project-stack { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; }
-    .stack-tag {
-      font-size: 11px;
-      font-family: var(--mono);
-      background: var(--bg3);
-      border: 1px solid var(--border);
-      color: var(--muted);
-      border-radius: 4px;
-      padding: 2px 7px;
-    }
+    .stack-tag { font-size: 11px; font-family: var(--mono); background: var(--bg3); border: 1px solid var(--border); color: var(--muted); border-radius: 4px; padding: 2px 7px; }
 
     #contact { text-align: center; }
     #contact .section-title { margin-bottom: 12px; }
     .contact-sub { color: var(--muted); max-width: 480px; margin: 0 auto 36px; }
     .contact-links { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; }
-    .contact-link {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 10px 20px;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      color: var(--text);
-      font-size: 14px;
-      font-weight: 500;
-      transition: border-color .15s, color .15s;
-    }
+    .contact-link { display: inline-flex; align-items: center; gap: 8px; padding: 10px 20px; border: 1px solid var(--border); border-radius: 8px; color: var(--text); font-size: 14px; font-weight: 500; transition: border-color .15s, color .15s; }
     .contact-link:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
 
-    footer {
-      border-top: 1px solid var(--border);
-      padding: 28px 0;
-      text-align: center;
-      color: var(--muted);
-      font-size: 13px;
-      font-family: var(--mono);
-    }
+    footer { border-top: 1px solid var(--border); padding: 28px 0; text-align: center; color: var(--muted); font-size: 13px; font-family: var(--mono); }
 
     @media (max-width: 640px) {
       #about .about-grid { grid-template-columns: 1fr; }
@@ -318,6 +168,7 @@
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -428,14 +279,6 @@
             <span class="skill-tag">SQLite</span>
           </div>
         </div>
-        <div class="skill-group">
-          <h4>Frontend</h4>
-          <div class="skill-tags">
-            <span class="skill-tag">Angular</span>
-            <span class="skill-tag">React</span>
-            <span class="skill-tag">HTML/CSS</span>
-          </div>
-        </div>
       </div>
     </div>
   </section>
@@ -450,56 +293,20 @@
 
         <div class="timeline-item">
           <div class="timeline-header">
-            <span class="timeline-role">Developer Associate (SDE-I)</span>
-            <span class="timeline-period">Jul 2025 — Present</span>
+            <span class="timeline-role">Software Engineer (STAR Program → Developer Associate)</span>
+            <span class="timeline-period">Aug 2023 — Present</span>
           </div>
-          <div class="timeline-company">SAP · PRP Team, CX Commerce &amp; Consumer Industries · Bangalore</div>
-          <div class="timeline-desc">Full Stack Cloud Native Application Developer — building scalable retail &amp; commerce solutions on SAP BTP using Java, Spring Boot, and Angular.</div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-header">
-            <span class="timeline-role">Dev Rotation 3 — BTP INT ABS Solution Hub</span>
-            <span class="timeline-period">Jan 2025 — Jul 2025</span>
+          <div class="timeline-company">SAP · Bangalore, India</div>
+          <div class="timeline-desc">
+            Joined through the STAR rotation program and progressed to Developer Associate (SDE-I). Rotated across 3 teams before settling in the PRP Team.
+            <ul style="margin-top:10px">
+              <li><strong>PRP Team — CX Commerce &amp; Consumer Industries</strong> <span style="font-family:var(--mono);font-size:11px;color:var(--muted)">(Jul 2025 – Present)</span><br/>Full Stack Cloud Native dev on SAP BTP · Java, Spring Boot</li>
+              <li><strong>BTP INT ABS Solution Hub</strong> <span style="font-family:var(--mono);font-size:11px;color:var(--muted)">(Jan 2025 – Jul 2025)</span><br/>Full Stack Cloud Native Developer · Java, SAP BTP</li>
+              <li><strong>SAP S/4HANA Cloud Retail PRP</strong> <span style="font-family:var(--mono);font-size:11px;color:var(--muted)">(Jun 2024 – Dec 2024)</span><br/>Full Stack Developer · Java, Spring Boot + 10 other technologies</li>
+              <li><strong>InnVent Hackathon — Concur Team</strong> <span style="font-family:var(--mono);font-size:11px;color:var(--muted)">(Apr – May 2024)</span><br/>ML Engineer · Similar Vendor Identification POC · Python, Flask</li>
+              <li><strong>LX Labs India</strong> <span style="font-family:var(--mono);font-size:11px;color:var(--muted)">(Sep 2023 – Mar 2024)</span><br/>Java Backend Developer · Spring Boot, SAP S/4HANA</li>
+            </ul>
           </div>
-          <div class="timeline-company">SAP · Bangalore</div>
-          <div class="timeline-desc">Full Stack Cloud Native Developer. Stack: Java, Angular, SAP BTP.</div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-header">
-            <span class="timeline-role">Dev Rotation 2 — SAP S/4HANA Cloud Retail PRP</span>
-            <span class="timeline-period">Jun 2024 — Dec 2024</span>
-          </div>
-          <div class="timeline-company">SAP · Bangalore</div>
-          <div class="timeline-desc">Full Stack Developer on SAP S/4HANA Cloud Retail. Worked across Java, Spring Boot, and 10+ technologies in the retail domain.</div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-header">
-            <span class="timeline-role">InnVent Hackathon — ML Engineer</span>
-            <span class="timeline-period">Apr 2024 — May 2024</span>
-          </div>
-          <div class="timeline-company">SAP (Concur Team) · Bangalore</div>
-          <div class="timeline-desc">Built a POC for Similar Vendor Identification using Machine Learning during the InnVent for Scholar 2024 hackathon. Stack: Python, Flask, ML.</div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-header">
-            <span class="timeline-role">Dev Rotation 1 — LX Labs India</span>
-            <span class="timeline-period">Sep 2023 — Mar 2024</span>
-          </div>
-          <div class="timeline-company">SAP · Bangalore</div>
-          <div class="timeline-desc">Java Backend Developer for LX Labs India Team. Stack: Spring Boot, SAP S/4HANA.</div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-header">
-            <span class="timeline-role">STAR Trainee (Rotation Program)</span>
-            <span class="timeline-period">Aug 2023</span>
-          </div>
-          <div class="timeline-company">SAP · Bangalore</div>
-          <div class="timeline-desc">Joined SAP through the STAR program — 7-month rotation across 3 teams before settling into a permanent team.</div>
         </div>
 
         <div class="timeline-item">
@@ -508,25 +315,43 @@
             <span class="timeline-period">Apr 2022 — Jun 2022</span>
           </div>
           <div class="timeline-company">IEM IEDC · Kolkata</div>
-          <div class="timeline-desc">Developed user login and profile section (10% increase in customer revisit). Built REST API using Node.js with MongoDB for user data storage.</div>
+          <div class="timeline-desc">
+            Built user login &amp; profile section (10% increase in customer revisit). Created REST API using Node.js + MongoDB for user data storage.
+          </div>
         </div>
+
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-divider" />
+
+  <section id="education">
+    <div class="container fade-up">
+      <p class="section-label">Education</p>
+      <h2 class="section-title">Academic background</h2>
+      <div class="timeline">
 
         <div class="timeline-item">
           <div class="timeline-header">
             <span class="timeline-role">MTech in Software Engineering</span>
             <span class="timeline-period">2023 — Present</span>
           </div>
-          <div class="timeline-company">BITS Pilani (Work Integrated Learning)</div>
-          <div class="timeline-desc">Part-time master's degree alongside full-time work at SAP, focused on advanced software engineering and distributed systems.</div>
+          <div class="timeline-company">BITS Pilani · Work Integrated Learning Programme</div>
+          <div class="timeline-desc">
+            Part-time master's degree alongside full-time work at SAP. Focus on advanced software engineering, distributed systems, and system design.
+          </div>
         </div>
 
         <div class="timeline-item">
           <div class="timeline-header">
-            <span class="timeline-role">B.Tech in Computer Science &amp; Engineering</span>
+            <span class="timeline-role">BCA — Bachelor of Computer Applications</span>
             <span class="timeline-period">2018 — 2022</span>
           </div>
           <div class="timeline-company">IEM Kolkata</div>
-          <div class="timeline-desc">Built campus event management platforms and early ML/full-stack projects during undergrad.</div>
+          <div class="timeline-desc">
+            Specialized in Computer Science. Built early full-stack and ML projects during undergrad, including campus event management systems.
+          </div>
         </div>
 
       </div>
@@ -555,7 +380,6 @@
           <div class="project-desc">Offline-first personal expense tracker — track spending by category with auto-sync. Works entirely in the browser with no backend dependency.</div>
           <div class="project-stack">
             <span class="stack-tag">TypeScript</span>
-            <span class="stack-tag">React</span>
             <span class="stack-tag">LocalStorage</span>
             <span class="stack-tag">Offline-first</span>
           </div>
@@ -594,7 +418,6 @@
           <div class="project-name">Instagram Follower Analyzer</div>
           <div class="project-desc">Local web app to analyze your Instagram followers — find who doesn't follow you back, mutual follows, and more. Runs entirely in the browser, no server needed.</div>
           <div class="project-stack">
-            <span class="stack-tag">HTML</span>
             <span class="stack-tag">JavaScript</span>
             <span class="stack-tag">Privacy-first</span>
           </div>
